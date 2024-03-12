@@ -62,11 +62,11 @@ IaCのコードスキャンについて、[azure-pipelines-IaCsecurityscan.yml](
  IaCのコンプライアンス評価について, [IaCのコンプライアンス評価](./codes/compliance_assessment_pipeline.md)を参照してください。
 
 #### 4. pipeline failed(vulnerabilities or non-compliant policies are discovered) and pipeline succeded(no vulnerabilities and non-compliant policies)
-ブランチポリシーにより、IaCのコードスキャンが失敗した場合は、プルリクエスト完了できない。
+ブランチポリシーにより、IaCのコードスキャンが失敗した場合は、プルリクエストを完了できない。
 
 ![branchpolicy](./images/branchpolicy.png)
 
-Reviewer policyにより、特定の承認者が承認しない限り、プルリクエスト完了できない。
+Reviewer policyにより、特定の承認者が承認しない限り、プルリクエストを完了できない。
 > コンプライアンス評価のパイプラインについて、ブランチポリシーで制御できないため、Reviewer policyで制御するようにしています。
 
 ![approval](./images/approval.png)
