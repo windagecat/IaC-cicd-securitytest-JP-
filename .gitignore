@@ -1,0 +1,6 @@
+# コミットしないファイル
+old/
+*/old/
+*/.terraform/
+*/**/.terraform*
+*/**/terraform.tfstate
